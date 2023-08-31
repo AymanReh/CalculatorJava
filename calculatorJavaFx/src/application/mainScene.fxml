@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="357.0" styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.mainSceneController">
+   <children>
+      <Button fx:id="btn" layoutX="200.0" layoutY="413.0" mnemonicParsing="false" onAction="#btnOkClick" prefHeight="68.0" prefWidth="100.0" text="=" />
+      <Button fx:id="btn1" layoutY="302.0" mnemonicParsing="false" onAction="#btn1C" prefHeight="111.0" prefWidth="100.0" text="1" />
+      <Button fx:id="btn2" layoutX="100.0" layoutY="302.0" mnemonicParsing="false" onAction="#btn2c" prefHeight="111.0" prefWidth="100.0" text="2" />
+      <Button fx:id="btnplus" layoutX="300.0" layoutY="413.0" mnemonicParsing="false" onAction="#btnplusc" prefHeight="68.0" prefWidth="55.0" text="+" />
+      <Button fx:id="btn3" layoutX="200.0" layoutY="302.0" mnemonicParsing="false" onAction="#btn3c" prefHeight="111.0" prefWidth="100.0" text="3" />
+      <Button fx:id="btn4" layoutY="191.0" mnemonicParsing="false" onAction="#btn4c" prefHeight="111.0" prefWidth="100.0" text="4" />
+      <Button fx:id="btn5" layoutX="100.0" layoutY="191.0" mnemonicParsing="false" onAction="#btn5c" prefHeight="111.0" prefWidth="100.0" text="5" />
+      <Button fx:id="btn6" layoutX="200.0" layoutY="191.0" mnemonicParsing="false" onAction="#btn6c" prefHeight="111.0" prefWidth="100.0" text="6" />
+      <Button fx:id="btn7" layoutY="80.0" mnemonicParsing="false" onAction="#btn7c" prefHeight="111.0" prefWidth="100.0" text="7" />
+      <Button fx:id="btn8" layoutX="100.0" layoutY="80.0" mnemonicParsing="false" onAction="#btn8c" prefHeight="111.0" prefWidth="100.0" text="8" />
+      <Button fx:id="btn9" layoutX="200.0" layoutY="80.0" mnemonicParsing="false" onAction="#btn9c" prefHeight="111.0" prefWidth="100.0" text="9" />
+      <Button fx:id="btn0" layoutY="413.0" mnemonicParsing="false" onAction="#btn0c" prefHeight="68.0" prefWidth="200.0" text="0" />
+      <Button fx:id="btnminus" layoutX="300.0" layoutY="302.0" mnemonicParsing="false" onAction="#btnminusc" prefHeight="111.0" prefWidth="55.0" text="-" />
+      <Button fx:id="btndivide" layoutX="300.0" layoutY="80.0" mnemonicParsing="false" onAction="#btndividec" prefHeight="111.0" prefWidth="55.0" text="/" />
+      <Button fx:id="btnmul" layoutX="300.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnmulc" prefHeight="111.0" prefWidth="55.0" text="*" />
+      <TextArea fx:id="txt" prefHeight="80.0" prefWidth="309.0" promptText="0" />
+      <Button fx:id="btnClear" layoutX="309.0" layoutY="55.0" mnemonicParsing="false" onAction="#btnCC" prefHeight="25.0" prefWidth="44.0" text="C" />
+   </children>
+</AnchorPane>
